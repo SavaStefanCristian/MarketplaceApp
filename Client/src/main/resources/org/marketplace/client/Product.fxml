@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.marketplace.client.ProductController">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Pagination fx:id="imagePagination" layoutX="14.0" layoutY="50.0" prefHeight="360.0" prefWidth="420.0" />
+      <Label fx:id="sellerLabel" layoutX="434.0" layoutY="50.0" text="Seller">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneLabel" layoutX="434.0" layoutY="70.0" text="Phone" />
+      <Label fx:id="titleLabel" layoutX="434.0" layoutY="87.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel" layoutX="434.0" layoutY="375.0" text="Price">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="messageLabel" layoutX="14.0" layoutY="410.0" />
+      <Button fx:id="removeButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#removeProduct" text="Remove" />
+      <Label fx:id="categoryLabel" layoutX="131.0" layoutY="18.0" text="Category" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="434.0" layoutY="114.0" prefHeight="248.0" prefWidth="346.0">
+         <content>
+            <Label fx:id="descriptionLabel" alignment="TOP_LEFT" prefWidth="330.0" text="Description" wrapText="true" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

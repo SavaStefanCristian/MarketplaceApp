@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.marketplace.client.ProductPreviewController">
+   <children>
+      <ImageView fx:id="productImageView" fitHeight="170.0" fitWidth="170.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8e8e8" height="170.0" layoutX="200.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="485.0" />
+      <Label fx:id="titleLabel" layoutX="215.0" layoutY="30.0" prefHeight="100.0" prefWidth="455.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="priceLabel" layoutX="215.0" layoutY="130.0" prefHeight="45.0" prefWidth="455.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

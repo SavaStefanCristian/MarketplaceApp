@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.marketplace.client.MainController">
+   <center>
+      <AnchorPane fx:id="centerAnchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <HBox alignment="BOTTOM_CENTER" BorderPane.alignment="BOTTOM_CENTER">
+         <children>
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#goToSearch" text="Search" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#goToMyListings" text="My Listings" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#goToAddListing" text="Add Listing" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

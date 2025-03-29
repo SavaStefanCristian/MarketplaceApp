@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.marketplace.client.RegisterController">
+    <children>
+        <Button fx:id="registerButton" layoutX="370.0" layoutY="350.0" mnemonicParsing="false" onAction="#register" text="Register" />
+        <Button fx:id="loginButton" layoutX="734.0" layoutY="461.0" mnemonicParsing="false" onAction="#goToLogin" text="Login" />
+        <Label layoutX="528.0" layoutY="465.0" text="Already have an account? Login here:" />
+        <Label fx:id="messageLabel" layoutX="288.0" layoutY="66.0" />
+      <VBox layoutX="326.0" layoutY="150.0" prefHeight="200.0" prefWidth="149.0">
+         <children>
+              <Label text="Username" />
+              <TextField fx:id="usernameField" prefHeight="25.0" prefWidth="153.0" />
+            <Label text="Phone Number" />
+            <TextField fx:id="phoneField" prefHeight="25.0" prefWidth="153.0" />
+              <Label text="Password" />
+              <PasswordField fx:id="passwordField" />
+            <Label text="Confirm Password" />
+            <PasswordField fx:id="confirmPasswordField" />
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>

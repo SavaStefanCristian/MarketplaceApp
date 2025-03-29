@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.marketplace.client.AddListingController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Add Listing" />
+      <VBox layoutX="14.0" layoutY="31.0" prefHeight="382.0" prefWidth="296.0">
+         <children>
+            <Label text="Title" />
+            <TextField fx:id="titleField" />
+            <Label text="Price (Euro)" />
+            <TextField fx:id="priceField" />
+            <Label text="Description" />
+            <TextArea fx:id="descriptionArea" prefHeight="326.0" prefWidth="343.0" wrapText="true" />
+         </children>
+      </VBox>
+      <Button layoutX="256.0" layoutY="430.0" mnemonicParsing="false" onAction="#addProduct" text="Submit" />
+      <ChoiceBox fx:id="categoryBox" layoutX="14.0" layoutY="430.0" prefWidth="150.0" />
+      <ListView fx:id="imageListView" layoutX="490.0" layoutY="48.0" prefHeight="184.0" prefWidth="296.0" />
+      <Label layoutX="490.0" layoutY="31.0" text="Images" />
+      <Button fx:id="addImagesButton" layoutX="489.0" layoutY="238.0" mnemonicParsing="false" onAction="#addImages" text="Add Images" />
+      <Button fx:id="clearImagesButton" layoutX="743.0" layoutY="238.0" mnemonicParsing="false" onAction="#clearImages" text="Clear" />
+      <Label fx:id="messageLabel" layoutX="489.0" layoutY="434.0" />
+      <Label layoutX="14.0" layoutY="413.0" text="Category" />
+   </children>
+</AnchorPane>
