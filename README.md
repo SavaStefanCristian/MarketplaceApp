@@ -7,6 +7,7 @@ This is a **client-server Marketplace App** built in **Java (Maven)** with a **P
 
 #### 🔹 Features  
 ✅ **User Authentication**: Secure account creation and login.
+
 ✅ **Argon2 Password Hashing**: Ensures strong password security.  
   
 ![Register Screen](images/RegisterPage.png)
